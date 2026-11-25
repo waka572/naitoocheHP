@@ -1,45 +1,77 @@
-﻿<!doctype html>
+<!doctype html>
 <html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="ナイトウフレンズオケ2026 団員向け情報サイト">
-  <title>ナイトウフレンズオケ2026 団員サイト</title>
+  <meta name="description" content="ナイトウフレンズオーケストラ 創部50周年記念コンサートの本番・練習・楽譜など、団員向け情報をまとめたサイトです。">
+  <title>ナイトウフレンズオーケストラ | 団員サイト</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page">
-    <p class="eyebrow">MEMBERS' INFORMATION</p>
-    <h1>ナイトウフレンズオケ<span class="year">2026</span><br>団員サイト</h1>
+  <main class="page home-page">
+    <header class="home-header">
+      <p class="eyebrow">NAITO FRIENDS ORCHESTRA <span>MEMBERS' PORTAL</span></p>
+    </header>
 
-    <section class="intro" aria-label="お知らせ">
-      <span class="pin" aria-hidden="true"></span>
-      <p>団員用情報をまとめました！</p>
+    <section class="event-highlight" aria-labelledby="event-title">
+      <div class="event-copy">
+        <p class="event-kicker">50TH ANNIVERSARY CONCERT</p>
+        <h1 id="event-title">創部50周年記念<br>コンサート</h1>
+        <p class="event-description">卒業生と仲間が集い、音楽を楽しむ記念のステージ。</p>
+        <div class="event-actions">
+          <a class="event-button event-button--primary" href="performance.html">チラシ・本番情報を見る <span aria-hidden="true">→</span></a>
+          <a class="event-button event-button--secondary" href="practice.html">練習日程を見る <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+      <div class="event-facts">
+        <p><span>DATE</span><strong>2027年1月16日<span class="event-day">（土）</span></strong></p>
+        <p><span>TIME</span><strong>開場 13:00 <span class="event-time-separator">/</span> 開演 13:30</strong></p>
+        <p><span>VENUE</span><strong>市川文化会館 大ホール</strong></p>
+        <p class="event-admission">入場無料・全席自由</p>
+      </div>
     </section>
 
-    <nav aria-label="団員向け情報">
-      <h2 class="section-heading">情報メニュー <span>必要なページを選んでください</span></h2>
-      <div class="links">
-        <a class="link-card" href="practice.html">
-          <span class="link-label">練習情報</span><span class="arrow" aria-hidden="true">→</span>
-        </a>
-        <a class="link-card" href="performance.html">
-          <span class="link-label">本番情報</span><span class="arrow" aria-hidden="true">→</span>
-        </a>
-        <a class="link-card" href="sheet-music.html">
-          <span class="link-label">楽譜共有</span><span class="arrow" aria-hidden="true">→</span>
-        </a>
-        <a class="link-card" href="sns.html">
-          <span class="link-label">SNS</span><span class="arrow" aria-hidden="true">→</span>
-        </a>
-        <a class="link-card" href="contact.html">
-          <span class="link-label">連絡先</span><span class="arrow" aria-hidden="true">→</span>
-        </a>
+    <section class="home-section" aria-labelledby="member-menu-title">
+      <div class="home-section-heading">
+        <p class="section-kicker">QUICK ACCESS</p>
+        <h2 id="member-menu-title">団員向けメニュー</h2>
+        <p>練習や本番に必要な情報はこちらから。</p>
       </div>
-    </nav>
+      <nav class="home-menu-grid" aria-label="団員向け情報">
+        <a class="link-card home-card" href="practice.html">
+          <span class="home-card-content"><span class="link-label">練習情報</span><span class="home-card-description">練習日程・会場・出欠入力</span></span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="link-card home-card" href="sheet-music.html">
+          <span class="home-card-content"><span class="link-label">楽譜共有</span><span class="home-card-description">演奏曲の楽譜とダウンロード案内</span></span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+        <a class="link-card home-card" href="performance.html">
+          <span class="home-card-content"><span class="link-label">本番情報</span><span class="home-card-description">コンサートのチラシ・開催情報</span></span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      </nav>
+    </section>
 
-    <footer>
-    </footer>
+    <section class="home-section home-section--secondary" aria-labelledby="connect-title">
+      <div class="home-section-heading">
+        <p class="section-kicker">STAY CONNECTED</p>
+        <h2 id="connect-title">つながる</h2>
+        <p>活動の様子を見たり、運営へ直接連絡できます。</p>
+      </div>
+      <nav class="home-menu-grid home-menu-grid--secondary" aria-label="連絡先とSNS">
+        <a class="link-card home-card" href="https://www.instagram.com/toho.obog.orchestra?stkn=MWJlYWU2MHlvcnFobw==" target="_blank" rel="noopener noreferrer">
+          <span class="home-card-content"><span class="link-label">Instagram</span><span class="home-card-description">@toho.obog.orchestra</span></span>
+          <span class="arrow" aria-hidden="true">↗</span>
+        </a>
+        <a class="link-card home-card" href="mailto:tohoobogorchestra2025@gmail.com">
+          <span class="home-card-content"><span class="link-label">運営へのお問い合わせ</span><span class="home-card-description">tohoobogorchestra2025@gmail.com</span></span>
+          <span class="arrow" aria-hidden="true">→</span>
+        </a>
+      </nav>
+    </section>
+
+    <footer class="home-footer">ナイトウフレンズオーケストラ 団員サイト</footer>
   </main>
 </body>
 </html>
